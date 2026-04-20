@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>iCoder | Web Development</title>
+</head>
+
+<body>
+  <nav class="site-header sticky-top py-1 bg-dark">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2 text-secondary" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10"></circle>
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+          </path>
+        </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block text-secondary" href="index.html">Blog</a>
+      <a class="py-2 d-none d-md-inline-block text-secondary" href="about.html">About Me</a>
+      <!-- <a class="py-2 d-none d-md-inline-block text-secondary" href="#">Categories</a> -->
+      <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categories
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="technology.html">Technology</a>
+        <a class="dropdown-item" href="webDevelopment.html">Web Development</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Support</a>
+        <a class="dropdown-item" href="contact.html">Write for us</a>
+      </div>
+      <a class="py-2 d-none d-md-inline-block text-secondary" href="contact.html">Write for Us</a>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Web Development</h1>
+        <p>Web development is the process of creating websites and web applications that run on browsers. It includes
+          frontend development (design and user interface) and backend development (server, database, and logic). It is
+          one of the most important and in-demand skills in the tech industry today.
+        </p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Frontend Development</h2>
+          <p>Frontend development focuses on building the user interface of websites. It includes technologies like
+            HTML, CSS, and JavaScript to create responsive and interactive designs that users interact with directly.
+          </p>
+          <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
+          <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#frontendModal">
+              View details »
+            </button>
+
+            <!-- Modal -->
+          <div class="modal fade" id="frontendModal" tabindex="-1" role="dialog" aria-labelledby="frontendModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="frontendModalLabel">Frontend Development</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                  <p>
+                    Frontend development is the part of web development that focuses on the user interface and user
+                    experience of a website. It deals with everything users see and interact with in their browser.
+                  </p>
+
+                  <hr>
+
+                  <h3>Core Technologies</h3>
+                  <ul>
+                    <li><strong>HTML:</strong> Provides the structure of the webpage</li>
+                    <li><strong>CSS:</strong> Adds styling, layout, and responsiveness</li>
+                    <li><strong>JavaScript:</strong> Adds interactivity and dynamic behavior</li>
+                  </ul>
+
+                  <h5>Key Responsibilities</h5>
+                  <ul>
+                    <li>Design responsive and mobile-friendly layouts</li>
+                    <li>Improve user experience (UX)</li>
+                    <li>Ensure fast loading and performance</li>
+                    <li>Make websites accessible and interactive</li>
+                  </ul>
+
+                  <h5>Popular Tools & Frameworks</h5>
+                  <ul>
+                    <li>Bootstrap – for responsive design</li>
+                    <li>React – for building modern UI</li>
+                    <li>Tailwind CSS – for fast styling</li>
+                  </ul>
+
+                  <h5>Why Learn Frontend Development?</h5>
+                  <p>
+                    Frontend development is one of the easiest ways to start a career in tech. It allows developers to
+                    visually see their work and build real-world projects like websites, dashboards, and web apps.
+                  </p>
+
+                  <p>
+                    With the rise of modern frameworks and tools, frontend development continues to evolve, making it an
+                    exciting and highly in-demand field.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Backend Development</h2>
+          <p>Backend development handles the server, database, and application logic. Technologies like Node.js and
+            Spring Boot are used to process data, manage APIs, and ensure smooth functioning of web applications. </p>
+          <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#backendModal">
+              View details »
+            </button>
+
+            <!-- Modal -->
+          <div class="modal fade" id="backendModal" tabindex="-1" role="dialog" aria-labelledby="backendModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="backendModalLabel">Backend Development</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                  <p>
+                    Backend development focuses on the server-side of web applications. It handles data processing,
+                    server logic, and communication between the database and the frontend.
+                  </p>
+
+                  <hr>
+
+                  <h3>Core Technologies</h3>
+                  <ul>
+                    <li><strong>Node.js:</strong> JavaScript runtime for building scalable servers</li>
+                    <li><strong>Spring Boot:</strong> Java framework for building robust backend systems</li>
+                    <li><strong>Databases:</strong> MySQL, MongoDB for storing and managing data</li>
+                  </ul>
+
+                  <h5>Key Responsibilities</h5>
+                  <ul>
+                    <li>Handle server-side logic and business rules</li>
+                    <li>Manage databases and data storage</li>
+                    <li>Create and manage APIs (REST services)</li>
+                    <li>Ensure security and authentication</li>
+                  </ul>
+
+                  <h5>Popular Tools & Frameworks</h5>
+                  <ul>
+                    <li>Express.js – lightweight backend framework</li>
+                    <li>Spring Boot – enterprise-level backend development</li>
+                    <li>Postman – API testing tool</li>
+                  </ul>
+
+                  <h5>Why Learn Backend Development?</h5>
+                  <p>
+                    Backend development is essential for building complete and functional applications. It allows
+                    developers to manage data, implement logic, and ensure smooth communication between different parts
+                    of an application.
+                  </p>
+
+                  <p>
+                    With increasing demand for scalable and secure applications, backend developers play a crucial role
+                    in modern software development.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Full Stack Development</h2>
+          <p>Full stack development combines both frontend and backend skills. A full stack developer can build complete
+            web applications, from designing the interface to managing databases and server-side logic.</p>
+          <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
+          <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#fullStackModal">
+              View details »
+            </button>
+
+            <!-- Modal -->
+          <div class="modal fade" id="fullStackModal" tabindex="-1" role="dialog" aria-labelledby="fullStackModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="fullStackModalLabel">Full Stack Development</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                  <p>
+                    Full stack development involves working on both frontend and backend parts of a web application. A
+                    full stack developer has the skills to build complete applications from user interface to server and
+                    database.
+                  </p>
+
+                  <hr>
+
+                  <h3>Core Technologies</h3>
+                  <ul>
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Backend:</strong> Node.js / Spring Boot</li>
+                    <li><strong>Database:</strong> MySQL, MongoDB</li>
+                  </ul>
+
+                  <h5>Key Responsibilities</h5>
+                  <ul>
+                    <li>Design and develop complete web applications</li>
+                    <li>Handle both client-side and server-side logic</li>
+                    <li>Integrate frontend with backend services</li>
+                    <li>Manage deployment and performance</li>
+                  </ul>
+
+                  <h5>Popular Tools & Frameworks</h5>
+                  <ul>
+                    <li>MERN Stack – MongoDB, Express, React, Node</li>
+                    <li>MEAN Stack – MongoDB, Angular, Node</li>
+                    <li>Git & GitHub – version control</li>
+                  </ul>
+
+                  <h5>Why Learn Full Stack Development?</h5>
+                  <p>
+                    Full stack development gives you complete control over building applications. It is one of the most
+                    in-demand roles as companies prefer developers who can handle multiple parts of a project.
+                  </p>
+
+                  <p>
+                    Learning full stack development helps you become versatile and increases your career opportunities
+                    in the tech industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+  </main>
+
+  <footer class="container my-4">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2020-2021 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
